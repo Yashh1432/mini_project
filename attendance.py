@@ -5,6 +5,12 @@ from tkcalendar import DateEntry
 from datetime import datetime
 import csv
 from calendar import monthrange
+# from Login import Login
+# from Register import Register
+
+
+
+
 
 class AttendanceClass:
     def __init__(self, root):
@@ -15,6 +21,29 @@ class AttendanceClass:
         self.root.update_idletasks()
         self.center_window()
         self.root.focus_force()
+        
+        
+    # #     # Start with Register window
+    #     self.show_login()
+
+    # def show_register(self):
+    #     print("Opening Register Page")  # Debug
+    #     for widget in self.root.winfo_children():   
+    #         widget.destroy()
+    #     Register(self.root, self.show_login)
+
+    # def show_login(self):
+    #     print("Opening Login Page")  # Debug
+    #     for widget in self.root.winfo_children():
+    #         widget.destroy()
+    #     # Pass the dashboard callback as a lambda to ensure proper binding
+    #     Login(self.root, lambda: self.show_dashboard())
+
+    # def show_dashboard(self):
+    #     print("Opening Dashboard")  # Debug
+    #     for widget in self.root.winfo_children():
+    #         widget.destroy()
+            
 
         # Title Frame
         title_frame = Frame(self.root, bg="#4A90E2", relief=RIDGE, bd=2)
