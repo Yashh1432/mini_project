@@ -16,3 +16,4 @@ Data Validation for Secure Inputs
     Object-Oriented Programming (OOP) in Python
 
 🚀 This project enhances student record management by providing a simple yet effective interface for administrators to handle student data efficiently.
+
